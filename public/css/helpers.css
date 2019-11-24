@@ -1,0 +1,254 @@
+.md-padding
+{
+    padding:32px;
+}
+.md-margin
+{
+    margin:32px;
+}
+.md-padding-in
+{
+    padding:32px;
+    box-sizing: border-box;
+}
+.ec-no-margin
+{
+  margin:0px;
+
+}
+
+
+.footer-margin
+{
+   
+}
+.card
+{
+   
+  animation-duration: 0.3s;
+  animation-name: aparecer-pop;
+}
+.card-custom-size
+{
+  min-height: 350px;
+}
+.card-testimonio
+{
+    max-height:250px;
+    overflow-y:auto;
+}
+.card-control-panel
+{
+  min-height:250px;
+}
+@keyframes slidein {
+  from {
+    margin-bottom: 64px;
+  }
+
+  to {
+    margin-bottom: 16px;
+
+  }
+}
+@keyframes aparecer-pop {
+  from {
+    transform:scale(0);
+  }
+
+  to {
+    transform:scale(1);
+  }
+}
+.ir-arriba {
+	display:none;
+	background:rgba(255,152,0, 0.5);
+	color:#fff;
+  cursor:pointer;
+}
+.ir-arriba:hover{
+  	background:rgba(255,152,0,1.0);
+}
+.fixed-action-btn-up {
+    position: fixed;
+    right: 50%;
+    left: 50%;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+}
+.ec-title
+{
+  margin-top:0px;
+  margin-bottom:12px;
+  padding-bottom:0px;
+}
+/* <------------------------ Barra de navegación movil ------------------------ */
+.ec-search-row{ margin-bottom:0px; padding-bottom:0px;}
+.ec-search-div{margin-bottom:0px; padding-bottom:0px;}
+.ec-search-icon{cursor:pointer; position:absolute; right:10px; top:8px;
+  padding:2%;
+  box-sizing: border-box;
+}
+.ec-search-icon:hover{
+  background-color:rgba(245,245,245,1);
+  
+}
+.ec-btn-file-input
+{
+  position:absolute;top:calc(50% - 16px); 
+  /*left:calc(50% - 16px);*/
+  left:90px;
+  z-index:2;
+  
+}
+.ec-btn-file-input-cover
+{
+  position:absolute;
+  top:calc(50% - 16px); 
+  left:calc(82% - 16px);
+  z-index:2;
+  
+  
+}
+.card-dashboard
+{
+  min-height:150px;
+}
+.ec-cover-ubication-follow
+{
+  position:absolute;
+  bottom:calc(12px - 16px); 
+  /*right:calc(15% - 16px);*/
+  z-index:2;
+}
+.ec-cover-ubication-follow div.btn
+{
+  width:100%;
+}
+.report-size
+{
+animation-duration: 0.3s;
+  animation-name: aparecer-pop;
+}
+.ec-img-shadow-profile:hover
+{
+  cursor:pointer;
+  -webkit-box-shadow: 0px 0px 10px 0.5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 10px 0.5px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 10px 0.5px rgba(0,0,0,0.75);
+}
+.row.col.s12.cover-main
+{
+  margin:0px; 
+  padding:0px; 
+  line-height:0px;
+}
+.cover
+{
+  position:relative;
+  
+}
+.ec-img-cover
+{
+  width:100%;
+  object-fit: cover;
+  height:250px;
+ /* position: absolute;*/
+}
+.ec-img-avatar
+{
+  border-radius: 50%;
+  z-index:1;
+  left:32px;
+  top:64px;
+  width:150px;
+  height:150px;
+  position:absolute;
+  
+  -webkit-box-shadow:  0px 0px 4px 0.5px rgba(0,0,0,0.75);
+-moz-box-shadow:  0px 0px 4px 0.5px rgba(0,0,0,0.75);
+box-shadow:  0px 0px 4px 0.5px rgba(0,0,0,0.75);
+}
+.ec-img-avatar-modal
+{
+  width:150; height:150px; position:relative; left:0px;top:0px;
+}
+.ec-img-seguidor
+{  
+  border-radius:50% !important;
+  position: absolute !important;
+  margin:auto;
+  /*margin-top:2px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-bottom:2px;*/
+  width:100px;
+  height: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  min-height: 100px;
+  max-height: 100px;
+  -webkit-box-shadow:  0px 0px 4px 0.5px rgba(0,0,0,0.75);
+-moz-box-shadow:  0px 0px 4px 0.5px rgba(0,0,0,0.75);
+box-shadow:  0px 0px 4px 0.5px rgba(0,0,0,0.75);
+}
+/* ------------------------ Barra de navegación movil ------------------------/> */
+@media only screen and (min-width: 500px) 
+{
+  .container-landingpage
+  {
+    min-height:500px;
+  }
+}
+  img.nav-img-profile
+  {
+    width:32px; height:32px;margin-top:16px;border-radius:50%;
+  }
+/* SMARTPHONES LANDSCAPE 
+Aumenta el ancho de la tarjeta en modo móvil, 
+se cometarizó en lo que se revisa la utilidad del código
+*/
+@media only screen and (max-width: 480px) 
+{
+  nav, nav .sidenav-trigger i, nav .sidenav-trigger #imgProfile
+  {
+    line-height: 32px;
+  }
+ img.nav-img-profile
+  {
+    margin-top:0px;
+  }
+  
+    .container
+    {
+        width:100%;
+        margin:0px;
+        padding:12px;
+    }
+    .card-panel
+    {
+        padding:0px;
+        margin:0px;
+        width:100%;
+    }
+    .report-size
+    {
+      padding:32px;
+      box-sizing: border-box;
+      margin-bottom:16px;
+    }
+    .card-row-custom-size
+    {
+        margin:0px;
+        padding:0px;
+        width:100%;
+    }
+    .card-custom-size{
+        margin:0px;
+        padding:0px;
+        margin-top:8px;
+       
+    }
+}

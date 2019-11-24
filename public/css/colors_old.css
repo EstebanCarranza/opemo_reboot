@@ -1,0 +1,38 @@
+.md-color-orange
+{
+    background-color: #ff9800;
+    background-color: rgb(255,152,0);
+}
+.bg-orange
+{
+    background-color:rgba(248,104,84,1);
+    color:white;
+}
+.tx-white
+{
+    color:white;
+}
+.link-color:link,.nav-link.link-color
+{
+    color:white;
+}
+.link-color:visited
+{
+color:white;
+}
+.link-color:hover
+{
+    color:white;
+}
+.bg-orange-02
+{
+    background-color:rgb(255,152, 0);
+}
+.primary-color
+{
+    background-color: #ff9800;
+}
+a
+{
+    color: #ff9800 !important;
+}
