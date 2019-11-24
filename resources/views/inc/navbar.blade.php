@@ -50,7 +50,7 @@
           @if(!Auth::guest())
             <img src="{{url('/image/profile/avatar?id='.Auth::user()->id)}}" class="sidenav-trigger nav-img-profile" data-target="slide-out">
           @else
-            <img src="{{url('defaultData/avatar_png.png')}}" class="sidenav-trigger nav-img-profile" data-target="slide-out">
+            <img src="{{url('defaultData/avatar_.png')}}" class="sidenav-trigger nav-img-profile" data-target="slide-out">
           @endif
         </a>
       </li>
@@ -59,9 +59,9 @@
      
         <a id="navMobileProfile" href="#" data-target="slide-out" class="sidenav-trigger right">
           @if(!Auth::guest())  
-            <img id="imgProfile" src="{{$UserPhotoProfile}}" class="sidenav-trigger nav-img-profile" data-target="slide-out">
+            <img id="imgProfile" src="{{url('/image/profile/avatar?id='.Auth::user()->id)}}" class="sidenav-trigger nav-img-profile" data-target="slide-out">
           @else
-            <img id="imgProfile" src="{{$UserPhotoProfileDefault}}" class="sidenav-trigger nav-img-profile" data-target="slide-out">
+            <img id="imgProfile" src="{{url('defaultData/avatar_.png')}}" class="sidenav-trigger nav-img-profile" data-target="slide-out">
           @endif
         </a>     
     </div>
